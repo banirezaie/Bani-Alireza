@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    max-height: 1.8rem;  
+    padding: 1.2rem 1.1rem;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 18rem;
+    font-size: 1.5rem; 
+  }
+
+nav .description{
+  color: #999;
+}
+nav .goals{
+  color: #000;
+  border-bottom: 1px solid #555;
+}
+nav .rules{
+  color: #999;
+}
+  
+
+
+
+/* ////////////////////main//////////////// */
+
+
+
+main{
+}
+
+.all{
+  border: 1px solid #222;
+  align-items: center;
+   margin-top: 10rem;
+   max-width: 600px;
+   min-height: 300px;
+   margin-left: 30rem;
+}
+
+.center-title{
+  margin-left: 1.1rem;
+
+}
+
+
+h1{
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+li{
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
