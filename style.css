@@ -1,51 +1,77 @@
 /** @format */
 
 body {
-  font-family: sans-serif, Arial, Helvetica;
-  background: rgb(210, 215, 200);
-  background: linear-gradient(
-    90deg,
-    rgba(210, 215, 200, 1) 0%,
-    rgba(217, 228, 190, 1) 42%,
-    rgba(168, 143, 137, 1) 100%
-  );
+  margin: 0;
+  padding: 0;
 }
 
-.text {
-  position: absolute;
-  left: 9rem;
-  top: 3rem;
-  right: 1rem;
+nav {
+  max-height: 1.8rem;
+  padding: 1.2rem 1.1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 95vh;
+  margin: 0 5rem;
+}
+
+.desc {
+  margin: 5rem 0;
   border: 1px solid #333;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-.navbar {
-  margin-left: 4rem;
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
-}
-
-#aside {
-  margin-bottom: 2rem;
+  border-radius: 10px;
+  padding: 1.5rem;
 }
 
 .cards {
-  margin-top: 12rem;
-  text-decoration: none;
+  width: 100%;
+  min-height: 20rem;
+  display: flex;
+  justify-content: space-around;
 }
 
-#card1 {
-  background: cadetblue;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/1200px-Google_Forms_2020_Logo.svg.png);
-  background-position: top;
-  background-size: 100px;
-  background-repeat: no-repeat;
-  padding: 10rem 4rem;
-  margin: 3rem;
-  border-radius: 5px;
-  font-size: 3rem;
+.card {
+  width: 10rem;
+  height: 17rem;
+  background-color: #999;
+  padding: 2rem 3.4rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.rules-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 17px;
+}
+
+.desc-img {
+  width: 125px;
+  height: 125px;
+}
+
+.goals-img {
+  width: 125px;
+  height: 125px;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.card a {
   color: black;
+  font-size: 1.5rem;
+  border: 1ps solid #000;
+  background-color: #e63946;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
 }
