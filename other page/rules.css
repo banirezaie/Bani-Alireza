@@ -1,57 +1,75 @@
-body{
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav{
-    max-height: 1.8rem;  
-    padding: 1.2rem 1.1rem;
-  }
-  
-  nav a{
-    text-decoration: none;
-    color: #000;
-    margin-left: 18rem;
-    font-size: 1.5rem; 
-  }
+/** @format */
 
-nav .description{
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  max-height: 1.8rem;
+  padding: 1.2rem 1.1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 1.5rem;
+}
+
+nav .description {
   color: #999;
 }
-nav .goals{
-    color: #999;
+nav .goals {
+  color: #999;
 }
-nav .rules{
-    color: #000;
-    border-bottom: 1px solid #555;
-}
-  
-
-
-
-
-
-/* ///////////////main////////////////////////// */
-
-
-.todo{
-    display: inline-flex;
-    margin: 15rem 30rem;
-    border: 1px solid #555;
-    height: 300px;
-    width: 550px;
+nav .rules {
+  border-bottom: 1px solid #555;
 }
 
-.rightPart{
-    padding: 7px 7px;    
+.cards {
+  width: 100%;
+  min-height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.leftPart{
-    border-right: 1px solid #333;
-    padding: 1rem;
-    padding-top: 3.5rem;
+.card {
+  width: 5rem;
+  height: 10rem;
+  background-color: #999;
+  padding: 2rem 3.4rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 1.5rem;
 }
 
-.leftPart span{
-    font-size: 1.5rem;
+.rules-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 17px;
+}
+
+.todo {
+  display: inline-flex;
+  margin: 1.5rem 5rem;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.rightPart {
+  padding: 7px 7px;
+}
+
+.leftPart {
+  border-right: 1px solid #333;
+  padding: 1rem;
+  padding-top: 3.5rem;
+}
+
+.leftPart span {
+  font-size: 1.5rem;
+  margin-top: 5rem;
 }

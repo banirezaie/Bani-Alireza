@@ -61,3 +61,16 @@ li {
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
+table {
+  table-layout: auto;
+  width: 70%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+td {
+  border: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
